@@ -7,10 +7,6 @@ namespace Cell
             InitializeComponent();
         }
 
-        private void btn_simulation_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void pnl_cell_Paint(object sender, PaintEventArgs e)
         {
@@ -20,15 +16,18 @@ namespace Cell
             myBrush.Dispose();
             g.Dispose();
         }
+        private void btn_simulation_Click(object sender, EventArgs e)
+        {
 
+        }
+        private void btn_simulation_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
