@@ -50,7 +50,7 @@
             this.btn_simulation.TabIndex = 1;
             this.btn_simulation.Text = "Simulation";
             this.btn_simulation.UseVisualStyleBackColor = false;
-            this.btn_simulation.Click += new System.EventHandler(this.button1_Click);
+            this.btn_simulation.Click += new System.EventHandler(this.btn_simulation_Click);
             // 
             // Form1
             // 

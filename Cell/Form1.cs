@@ -12,7 +12,7 @@ namespace Cell
         {
             Graphics g = this.pnl_cell.CreateGraphics();
             SolidBrush myBrush = new SolidBrush(Color.Black);
-            g.FillEllipse(myBrush, 120, 130, 20, 20);
+            g.FillEllipse(myBrush, 450, 400, 20, 20);
             myBrush.Dispose();
             g.Dispose();
         }
